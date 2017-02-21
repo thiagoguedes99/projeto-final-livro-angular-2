@@ -1,0 +1,24 @@
+<div class="jumbotron">
+    <h1>
+        {{title}}
+    </h1>
+
+    <br>
+    <br>
+
+    <app-dados-usuario></app-dados-usuario>
+
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col">
+            <app-lista-usuario (idClicado)="enviarDetalhe($event)"></app-lista-usuario>
+        </div>
+
+        <div class="col">
+            <app-detalhe-usuario [nome]="nomeContato" [telefone]="telefoneContato" [email]="emailContato" [tipo]="tipoContato"></app-detalhe-usuario>
+        </div>
+
+    </div>
+</div>
