@@ -42,5 +42,4 @@ export class DadosUsuarioComponent implements OnInit {
     this._tipo = '';
     this.enviado = ! this.enviado;
   }
-
 }
