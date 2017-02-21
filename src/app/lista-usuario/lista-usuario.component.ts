@@ -21,5 +21,4 @@ export class ListaUsuarioComponent implements OnInit {
   contatoClidado(item: number) {
     this.idClicado.emit(item);
   }
-
 }
