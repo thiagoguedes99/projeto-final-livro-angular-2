@@ -8,8 +8,5 @@ import { ContatoModel } from '../modelos/contato-model';
 })
 export class DetalheUsuarioComponent {
 
-  @Input() nome: string;
-  @Input() telefone: string;
-  @Input() email: string;
-  @Input() tipo: string;
+  @Input() contato: ContatoModel;
 }
